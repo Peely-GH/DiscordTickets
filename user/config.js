@@ -47,11 +47,11 @@ module.exports = {
 	colour: '#009999',
 	err_colour: 'RED',
 	cooldown: 3,
-	guild: '', // ID of your guild (REQUIRED)
-	staff_role: '', // ID of your Support Team role (REQUIRED)
+	guild: '805511234446557214', // ID of your guild (REQUIRED)
+	staff_role: '805517343119769622', // ID of your Support Team role (REQUIRED)
 
 	tickets: {
-		category: '', // ID of your tickets category (REQUIRED)
+		category: '811332564752662589', // ID of your tickets category (REQUIRED)
 		send_img: true,
 		ping: 'here',
 		text: `Hello there, {{ tag }}!
@@ -87,7 +87,7 @@ module.exports = {
 			enabled: false,
 			server: 'https://tickets.example.com',
 		},
-		channel: '' // ID of your archives channel
+		channel: '814234034070618172' // ID of your archives channel
 	},
 
 	panel: {
@@ -106,8 +106,8 @@ module.exports = {
 			keep_for: 7
 		},
 		discord: {
-			enabled: false,
-			channel: '' // ID of your log channel
+			enabled: true,
+			channel: '811332664618385468' // ID of your log channel
 		}
 	},
 
